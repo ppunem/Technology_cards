@@ -1,17 +1,33 @@
 .card-1 {
   border-top: 5px solid #ff4f64;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-2 {
   border-top: 5px solid #00a8e7;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-3 {
   border-top: 5px solid #44c4a1;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-4 {
   border-top: 5px solid #fcc200;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Write CSS code here. */
@@ -20,12 +36,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.card {
-  border-radius: 10px;
-  padding: 15px;
-  display: flex;
-  flex-direction: column;
-}
+
 .role-name {
   font-family: 'roboto';
   font-weight: bold;
@@ -37,4 +48,12 @@
 .image-size {
   height: 80px;
   align-self: flex-end;
+}
+li {
+  list-style-type: none;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }

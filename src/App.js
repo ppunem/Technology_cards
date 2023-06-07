@@ -46,7 +46,7 @@ const App = () => (
     </p>
     <ul>
       {cardsList.map(each => (
-        <CardItem cardDetails={each} key={each.id} className={className} />
+        <CardItem cardDetails={each} key={each.id} className={each.className} />
       ))}
     </ul>
   </div>
